@@ -16,7 +16,7 @@ mono $workdir/core/TextTool.exe $mode $ConfigExcelDir $I18NStringPath $StringLib
 
 
 
-echo 按任意键继续
+echo 按任意键继续 $(pwd)
 read -n 1
 echo 继续运行
 exit 0
